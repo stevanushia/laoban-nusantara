@@ -1,5 +1,8 @@
-<?php include_once __DIR__."/template/header.php"; ?>
-    
+<?php 
+$current_page = "menu"; // This variable represents the current page (e.g., menu.php)
+include_once __DIR__."/template/header.php";
+
+?>
     
     <!-- ***** Menu Area Starts ***** -->
     <section class="section" id="offers">
