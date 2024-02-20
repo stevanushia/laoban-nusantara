@@ -59,8 +59,8 @@
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="#about">About</a></li>
+                            <li class="scroll-to-section"><a href="index.php" class="<?php echo ($current_page == 'index') ? 'active' : ''; ?>">Home</a></li>
+                            <li class="scroll-to-section"><a href="about.php" class="<?php echo ($current_page == 'about') ? 'active' : ''; ?>">About</a></li>
 
                             <!-- 
                             <li class="submenu">
@@ -72,7 +72,8 @@
                                 </ul>
                             </li>
                         -->
-                            <li class="scroll-to-section"><a href="#menu">Menu</a></li>
+                            <!-- <li class="scroll-to-section"><a href="menu.php">Menu</a></li> -->
+                            <li class="scroll-to-section"><a href="menu.php" class="<?php echo ($current_page == 'menu') ? 'active' : ''; ?>">Menu</a></li>
                             <li class="scroll-to-section"><a href="#OurFranchise">Our Franchise</a></li>
                             <li class="submenu">
                                 <a href="javascript:;">Features</a>
