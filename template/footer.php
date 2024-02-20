@@ -5,10 +5,10 @@
                 <div class="col-lg-4 col-xs-12">
                     <div class="right-text-content">
                         <ul class="social-icons">
+                            <li><a href="https://www.instagram.com/laoban.nusantara/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -64,6 +64,22 @@
             });
         });
     </script>
+
+    <!-- Navigate To Top Navbar Function -->
+    <!-- <script>
+        function navigateToTopIfCurrentPage(page) {
+        // Get the current page URL
+        var currentPage = window.location.href;
+
+        // Check if the current page is the same as the page being navigated to
+        if (currentPage.endsWith(page)) {
+            // If it is, navigate to #top
+            window.location.href = "#top";
+            }
+        }
+    </script> -->
+    <!-- Navigate To Top Navbar Function -->
+
 </body>
 
 </html>
