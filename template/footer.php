@@ -19,9 +19,7 @@
                 </div>
                 <div class="col-lg-4 col-xs-12">
                     <div class="left-text-content">
-                        <p>© Copyright Klassy Cafe Co.
-
-                            <br>Design: TemplateMo</p>
+                        <p>© Copyright Klassy Cafe Co.</p>
                     </div>
                 </div>
             </div>
@@ -34,6 +32,8 @@
     <!-- Bootstrap -->
     <script src="assets/js/popper.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 
     <!-- Plugins -->
     <script src="assets/js/owl-carousel.js"></script>
@@ -64,21 +64,6 @@
             });
         });
     </script>
-
-    <!-- Navigate To Top Navbar Function -->
-    <!-- <script>
-        function navigateToTopIfCurrentPage(page) {
-        // Get the current page URL
-        var currentPage = window.location.href;
-
-        // Check if the current page is the same as the page being navigated to
-        if (currentPage.endsWith(page)) {
-            // If it is, navigate to #top
-            window.location.href = "#top";
-            }
-        }
-    </script> -->
-    <!-- Navigate To Top Navbar Function -->
 
 </body>
 
