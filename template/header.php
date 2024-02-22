@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
         rel="stylesheet">
         
+        
         <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
@@ -74,8 +75,8 @@
                         -->
                             <!-- <li class="scroll-to-section"><a href="menu.php">Menu</a></li> -->
                             <li class="scroll-to-section"><a href="menu.php" class="<?php echo ($current_page == 'menu') ? 'active' : ''; ?>">Menu</a></li>
-                            <li class="scroll-to-section"><a href="#OurFranchise">Our Franchise</a></li>
-                            <li class="submenu">
+                            <li class="scroll-to-section"><a href="ourFranchise.php" class="<?php echo ($current_page == 'franchise') ? 'active' : ''; ?>">Our Franchise</a></li>
+                            <!-- <li class="submenu">
                                 <a href="javascript:;">Features</a>
                                 <ul>
                                     <li><a href="#">Features Page 1</a></li>
@@ -83,9 +84,9 @@
                                     <li><a href="#">Features Page 3</a></li>
                                     <li><a href="#">Features Page 4</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                             <!-- <li class=""><a rel="sponsored" href="https://templatemo.com" target="_blank">External URL</a></li> -->
-                            <li class="scroll-to-section"><a href="#reservation">Contact Us</a></li>
+                            <li class="scroll-to-section"><a href="contact.php" class="<?php echo ($current_page == 'contact') ? 'active' : ''; ?>">Contact Us</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
