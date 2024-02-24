@@ -51,7 +51,7 @@ include_once __DIR__."/template/header.php";
             <div class="row">
                 <div class="col-lg-4 offset-lg-4 text-center">
                     <div class="section-heading">
-                        <h6>Our Chefs</h6>
+                        <h6>Our CEO</h6>
                         <h2>We offer the best ingredients for you</h2>
                     </div>
                 </div>
@@ -62,9 +62,9 @@ include_once __DIR__."/template/header.php";
                         <div class="thumb">
                             <div class="overlay"></div>
                             <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=100087203203713"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.instagram.com/laoban.nusantara/"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                             <img src="assets/images/chefs-01.jpg" alt="Chef #1">
                         </div>
