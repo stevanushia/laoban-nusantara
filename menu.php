@@ -10,8 +10,8 @@ include_once __DIR__."/template/header.php";
             <div class="row">
                 <div class="col-lg-4 offset-lg-4 text-center">
                     <div class="section-heading">
-                        <h6>Klassy Week</h6>
-                        <h2>This Week’s Special Meal Offers</h2>
+                        <h6>Our Menu</h6>
+                        <h2>Laoban Menu List</h2>
                     </div>
                 </div>
             </div>
@@ -21,14 +21,20 @@ include_once __DIR__."/template/header.php";
                         <div class="col-lg-12">
                             <div class="heading-tabs">
                                 <div class="row">
-                                    <div class="col-lg-6 offset-lg-3">
+                                    <div class="col-lg-8 offset-lg-2">
                                         <ul>
                                             <li><a href='#tabs-1'><img src="assets/images/tab-icon-01.png"
-                                                        alt="">Breakfast</a></li>
+                                                        alt="">Main Dish</a></li>
                                             <li><a href='#tabs-2'><img src="assets/images/tab-icon-02.png"
-                                                        alt="">Lunch</a></a></li>
+                                                        alt="">Snack</a></a></li>
                                             <li><a href='#tabs-3'><img src="assets/images/tab-icon-03.png"
-                                                        alt="">Dinner</a></a></li>
+                                                        alt="">Dimsum</a></a></li>
+                                            <li><a href='#tabs-4'><img src="assets/images/tab-icon-03.png"
+                                                        alt="">Hot Drink</a></a></li>
+                                            <li><a href='#tabs-5'><img src="assets/images/tab-icon-03.png"
+                                                        alt="">Cold Drink</a></a></li>
+                                            <li><a href='#tabs-6'><img src="assets/images/tab-icon-03.png"
+                                                        alt="">Si Bikin Seger</a></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -36,6 +42,7 @@ include_once __DIR__."/template/header.php";
                         </div>
                         <div class="col-lg-12">
                             <section class='tabs-content'>
+                                <!-- Breakfast -->
                                 <article id='tabs-1'>
                                     <div class="row">
                                         <div class="col-lg-6">
@@ -118,6 +125,9 @@ include_once __DIR__."/template/header.php";
                                         </div>
                                     </div>
                                 </article>
+                                <!-- Breakfast -->
+
+                                <!-- Lunch -->
                                 <article id='tabs-2'>
                                     <div class="row">
                                         <div class="col-lg-6">
@@ -200,6 +210,9 @@ include_once __DIR__."/template/header.php";
                                         </div>
                                     </div>
                                 </article>
+                                <!-- Lunch -->
+
+                                <!-- Dinner -->
                                 <article id='tabs-3'>
                                     <div class="row">
                                         <div class="col-lg-6">
@@ -282,6 +295,8 @@ include_once __DIR__."/template/header.php";
                                         </div>
                                     </div>
                                 </article>
+                                <!-- Dinner -->
+
                             </section>
                         </div>
                     </div>
