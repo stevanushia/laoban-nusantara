@@ -1,6 +1,15 @@
 <?php 
+require_once 'vendor/autoload.php';
 $current_page = "menu"; // This variable represents the current page (e.g., menu.php)
 include_once __DIR__."/template/header.php";
+$arrMainDish = Menu::getMainDish();
+// function dd($data)
+// {
+//     echo "<pre>";
+//     var_dump($data);
+//     echo "</pre>";
+// }
+// dd($arrMainDish);
 
 ?>
     
@@ -42,7 +51,8 @@ include_once __DIR__."/template/header.php";
                         </div>
                         <div class="col-lg-12">
                             <section class='tabs-content'>
-                                <!-- Breakfast -->
+                                
+                                <!-- Main Dish -->
                                 <article id='tabs-1'>
                                     <div class="row">
                                         <div class="col-lg-6">
@@ -125,9 +135,9 @@ include_once __DIR__."/template/header.php";
                                         </div>
                                     </div>
                                 </article>
-                                <!-- Breakfast -->
+                                <!-- Main Dish -->
 
-                                <!-- Lunch -->
+                                <!-- Snack -->
                                 <article id='tabs-2'>
                                     <div class="row">
                                         <div class="col-lg-6">
@@ -210,9 +220,9 @@ include_once __DIR__."/template/header.php";
                                         </div>
                                     </div>
                                 </article>
-                                <!-- Lunch -->
+                                <!-- Snack -->
 
-                                <!-- Dinner -->
+                                <!-- Dimsum -->
                                 <article id='tabs-3'>
                                     <div class="row">
                                         <div class="col-lg-6">
@@ -295,7 +305,92 @@ include_once __DIR__."/template/header.php";
                                         </div>
                                     </div>
                                 </article>
-                                <!-- Dinner -->
+                                <!-- Dimsum -->
+
+                                <!-- Hot Drink -->
+                                <article id='tabs-4'>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="left-list">
+                                                    <div class="col-lg-12">
+                                                        <div class="tab-item">
+                                                            <img src="assets/images/tab-item-05.png" alt="">
+                                                            <h4>Eggs Omelette</h4>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing
+                                                                elit, sed do.</p>
+                                                            <div class="price">
+                                                                <h6>$14</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="tab-item">
+                                                            <img src="assets/images/tab-item-03.png" alt="">
+                                                            <h4>Orange Juice</h4>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing
+                                                                elit, sed do.</p>
+                                                            <div class="price">
+                                                                <h6>$18</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="tab-item">
+                                                            <img src="assets/images/tab-item-02.png" alt="">
+                                                            <h4>Fruit Salad</h4>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing
+                                                                elit, sed do.</p>
+                                                            <div class="price">
+                                                                <h6>$10</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="right-list">
+                                                    <div class="col-lg-12">
+                                                        <div class="tab-item">
+                                                            <img src="assets/images/tab-item-06.png" alt="">
+                                                            <h4>Fresh Chicken Salad</h4>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing
+                                                                elit, sed do.</p>
+                                                            <div class="price">
+                                                                <h6>$8.50</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="tab-item">
+                                                            <img src="assets/images/tab-item-01.png" alt="">
+                                                            <h4>Dollma Pire</h4>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing
+                                                                elit, sed do.</p>
+                                                            <div class="price">
+                                                                <h6>$9</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="tab-item">
+                                                            <img src="assets/images/tab-item-04.png" alt="">
+                                                            <h4>Omelette & Cheese</h4>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing
+                                                                elit, sed do.</p>
+                                                            <div class="price">
+                                                                <h6>$11</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <!-- Hot Drink -->
 
                             </section>
                         </div>
