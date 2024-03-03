@@ -1,5 +1,5 @@
 {
     "autoload": {
-        "classmap": ["DB"]
+        "classmap": ["DB", "Models"]
     }
 }
