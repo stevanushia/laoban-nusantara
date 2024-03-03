@@ -9,24 +9,24 @@ include_once __DIR__."/template/header.php"; ?>
                 <div class="col-lg-6 align-self-center">
                     <div class="left-text-content">
                         <div class="section-heading">
-                            <h6>Contact Us</h6>
-                            <h2>Here You Can Make A Reservation Or Just walkin to our cafe</h2>
+                            <h6>Grow With Us!</h6>
+                            <h2>BERGABUNGLAH BERSAMA KELUARGA BESAR LAOBAN NUSANTARA</h2>
                         </div>
-                        <p>Donec pretium est orci, non vulputate arcu hendrerit a. Fusce a eleifend riqsie, namei
-                            sollicitudin urna diam, sed commodo purus porta ut.</p>
+                        <p>Anda berkesempatan menjadi bagian dalam pertumbuhan industri minuman dan makanan dengan konsep kopitiam ala Laoban di Indonesia. Tentunya bersama dengan menu-menu kebanggaan Laoban seperti Nasi-nasi khas Laoban, Kudapan Khas Laoban, Minuman Khas Laoban.</p>
+                        <P>Dengan Mengutamakan citra Brand dari Laoban Nusantara yang terus maju untuk mencapai tujuan besar kami. Kami mendukung anda bergabung bersama kami, untuk menjalankan bisnis outlet dari Laoban Nusantara. Product Inovation dan Development merupakan strategi yang akan kami jalankan demi menjaga persaingan pasar. </p>
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="phone">
                                     <i class="fa fa-phone"></i>
                                     <h4>Phone Numbers</h4>
-                                    <span><a href="#">080-090-0990</a><br><a href="#">080-090-0880</a></span>
+                                    <span><a href="https://wa.me/+6282244503221">0822-4450-3221</a><br><a href=""></a></span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="message">
                                     <i class="fa fa-envelope"></i>
                                     <h4>Emails</h4>
-                                    <span><a href="#">hello@company.com</a><br><a href="#">info@company.com</a></span>
+                                    <span><a href="mailto:Laobankopitiam@gmail.com">Laobankopitiam@gmail.com</a><br><a href="#"></a></span>
                                 </div>
                             </div>
                         </div>
@@ -37,7 +37,7 @@ include_once __DIR__."/template/header.php"; ?>
                         <form id="contact" action="" method="post">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <h4>Table Reservation</h4>
+                                    <h4>Partnership Appliance</h4>
                                 </div>
                                 <div class="col-lg-6 col-sm-12">
                                     <fieldset>
