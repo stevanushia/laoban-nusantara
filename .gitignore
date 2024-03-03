@@ -6,3 +6,6 @@ vendor/composer/autoload_static.php
 vendor/composer/ClassLoader.php
 vendor/composer/LICENSE
 vendor/autoload.php
+vendor/composer/installed.json
+vendor/composer/installed.php
+vendor/composer/InstalledVersions.php
