@@ -19,7 +19,7 @@
                 </div>
                 <div class="col-lg-4 col-xs-12">
                     <div class="left-text-content">
-                        <p>© Copyright Klassy Cafe Co.</p>
+                        <p>© Copyright Laoban Nusantara.</p>
                     </div>
                 </div>
             </div>
