@@ -46,15 +46,15 @@ CREATE TABLE `menu` (
 /*Data for the table `menu` */
 
 insert  into `menu`(`id`,`name`,`description`,`photo`,`tipe_makanan`) values 
-(1,'Nasi Lemak','Nasi dengan rempah santan dengan ayam ukep bumbu dikombinasikan dengan kacang teri yang memanjakan lidah kalian. Sambelnya juga mantap.\r\n',NULL,1),
-(2,'Nasi Mala','Nasi putih dengan rempah mala sechuan pedas asin gurih. Pecinta pedas? Cobain',NULL,1),
-(3,'Nasi Hainan','Nasi berbumbu putih rahasia khas laoban yang pastinya sedap dicampur ayam yang disiram bumbu coklat yang muantab.',NULL,1),
-(4,'Nasi Jasio','Nasi berbumbu putih rahasia khas laoban yang pastinya sedap dicampur ayam jasio bumbu merah yang tebel dan juicy!',NULL,1),
-(5,'Nasi Salted Egg','Nasi putih dengan ayam bumbu telor asin yang siap memanjakan lidah + telor sunny side up juga loh!',NULL,1),
-(6,'Mie Laksa','Mie dengan kaldu seafood gurih dilengkapi dengan bakso sea food, udang, dan telor yang jadi favorit kaum wanita, must try!!',NULL,1),
-(7,'Mie Hainan','Mie berbumbu putih rahasia khas laoban yang pastinya sedap dicampur ayam jasio bumbu coklat yang muantab!',NULL,1),
-(8,'Mie Jasio','Mie berbumbu putih rahasia khas laoban yang pastinya sedap dicampur ayam jasio bumbu merah yang tebel dan juicy!',NULL,1),
-(9,'Bubur Laoban','Bubur Special Laoban adalah bubur dengan cita rasa kaldu ayam istimewa yang lezat.',NULL,1);
+(1,'Nasi Lemak','Nasi dengan rempah santan dengan ayam ungkep bumbu dikombinasikan dengan kacang teri yang memanjakan lidah kalian. Sambelnya juga mantap.\r\n','NasiLemakPotrait.jpg',1),
+(2,'Nasi Mala','Nasi putih dengan rempah mala sechuan yang rasanya pedas asin gurih. Pecinta pedas? Wajib cobain!','NasiMalaSechuanPotrait.jpg',1),
+(3,'Nasi Hainan','Nasi berbumbu putih rahasia khas laoban yang pastinya sedap dicampur ayam yang disiram bumbu coklat yang muantab.','NasiHainanPotrait.jpg',1),
+(4,'Nasi Jasio','Nasi berbumbu putih rahasia khas laoban yang pastinya sedap dicampur ayam jasio bumbu merah yang tebel dan juicy!','NasiJasioPotrait.jpg',1),
+(5,'Nasi Salted Egg','Nasi putih dengan ayam bumbu telor asin yang siap memanjakan lidah + telor sunny side up juga loh!','NasiSaltedEggPotrait.jpg',1),
+(6,'Mie Laksa','Mie dengan kaldu seafood gurih dilengkapi dengan bakso sea food, udang, dan telor yang jadi favorit kaum wanita, must try!!','MieLaksaPotrait.jpg',1),
+(7,'Mie Hainan','Mie berbumbu putih rahasia khas laoban yang pastinya sedap dicampur ayam jasio bumbu coklat yang muantab!','MieHainanPotrait.jpg',1),
+(8,'Mie Jasio','Mie berbumbu putih rahasia khas laoban yang pastinya sedap dicampur ayam jasio bumbu merah yang tebel dan juicy!','MieAyamJasioPotrait.jpg',1),
+(9,'Bubur Laoban','Bubur Special Laoban adalah bubur dengan cita rasa kaldu ayam istimewa yang lezat.','BuburLaobanPotrait.jpg',1);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
