@@ -83,11 +83,14 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                                 <div class='tab-item'>
                                                     <img src='assets/images/main-dish/{$arrMainDish[$i]['photo']}' alt=''>
                                                     <h4>{$arrMainDish[$i]['name']}</h4>
-                                                    <p>{$arrMainDish[$i]['description']}</p>
-                                                    <div class='price'>
-                                                        <h6><i class='fa fa-star'></i></h6>
-                                                    </div>
-                                                </div>
+                                                    <p>{$arrMainDish[$i]['description']}</p>";
+
+                                                    if ($arrMainDish[$i]['favorit']) {
+                                                        echo "<div class='price'>
+                                                            <h6><i class='fa fa-star'></i></h6>
+                                                        </div>";
+                                                    }
+                                                echo"</div>
                                             </div>";
                                     }
                                     echo "</div>
@@ -102,11 +105,14 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                                 <div class='tab-item'>
                                                     <img src='assets/images/main-dish/{$arrMainDish[$i]['photo']}' alt=''>
                                                     <h4>{$arrMainDish[$i]['name']}</h4>
-                                                    <p>{$arrMainDish[$i]['description']}</p>
-                                                    <div class='price'>
-                                                        <h6>$10.50</h6>
-                                                    </div>
-                                                </div>
+                                                    <p>{$arrMainDish[$i]['description']}</p>";
+
+                                                    if ($arrMainDish[$i]['favorit']) {
+                                                        echo "<div class='price'>
+                                                            <h6><i class='fa fa-star'></i></h6>
+                                                        </div>";
+                                                    }
+                                                echo"</div>
                                             </div>";
                                     }
                                     echo "</div>
