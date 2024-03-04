@@ -32,6 +32,8 @@
 
     <link rel="stylesheet" href="assets/css/lightbox.css">
 
+    <script src="https://kit.fontawesome.com/4815e9ab08.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
