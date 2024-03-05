@@ -42,7 +42,7 @@ CREATE TABLE `menu` (
   `tipe_makanan` int(10) DEFAULT NULL COMMENT '1 : makanan berat, 2 : snack, 3 : dimsum, 4 : hot drink, 5 : cold drink, 6 : si bikin seger',
   `favorit` smallint(1) DEFAULT NULL COMMENT '1 : favorit',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=48 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=49 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 /*Data for the table `menu` */
 
@@ -60,10 +60,10 @@ insert  into `menu`(`id`,`name`,`description`,`photo`,`tipe_makanan`,`favorit`) 
 (11,'Choco Toast','Solusi para kaum suka badmood!','ChocoToastPotrait.jpg',2,NULL),
 (12,'Cheesy Toast','Ya jelas isinya selai keju kalau selai coklat namanya choco toast.','CheesyToastPotrait.jpg',2,NULL),
 (13,'Peanut Toast','Pakai selai kacang kalau dikacangin itu kamu.','PeanutToastPotrait.jpg',2,NULL),
-(14,'Telur 1/2 matang','Lezat, sehat dan bergiji apalagi dicocol kaya toast mantul!','Telur1/2MatangPotrait.jpg',2,NULL),
+(14,'Telur 1/2 matang','Lezat, sehat dan bergiji apalagi dicocol kaya toast mantul!','Telur1_2MatangPotrait.jpg',2,NULL),
 (15,'Pisang Goreng Wijen','Pisang goreng sepesial laoban pake wijen.','PisangGorengWijenPotrait.jpg',2,NULL),
 (16,'Siomay Ayam','Siomay lezat berisi daging ayam yang lembut dan gurih.','SiomayAyamPotrait.jpg',3,NULL),
-(17,'Siomay Volcano','Siomay untuk pecinta pedas! pedasnya bikin nampol !','SiomayVolcanoPotrait.jpg',3,NULL),
+(17,'Siomay Volcano','Siomay untuk pecinta pedas! pedasnya bikin nampol !','SiomayVolcanoPotrait.jpg',3,NULL),
 (18,'Ceker','Ceker ayam dengan bumbu gurih manis tentunya bikin nagih!','CekerPotrait.jpg',3,NULL),
 (19,'Pao Pasir Emas','Camilan kukus pao isian telor asin tapi manis!','BakpaoPasirEmasPotrait.jpg',3,NULL),
 (20,'Pao Durian','Pao dengan tekstur yang lembut berisi lumeran durian yang lezatt.','BakpaoDurianPotrait.jpg',3,NULL),
@@ -93,7 +93,8 @@ insert  into `menu`(`id`,`name`,`description`,`photo`,`tipe_makanan`,`favorit`) 
 (44,'Es Coklat Laoban','Es Coklat rahasia dari Uncle Osh! mirip lah sama yg di cafe2 mendunia.','EsCoklatLaoban.jpg',5,NULL),
 (45,'Es Sumo','Perpaduan pas antara susu dan sirup mocha yg bikin zeger\r\n','EsSumo.jpg',5,NULL),
 (46,'Air Mineral','Air mineral adalah air alami yang kaya mineral penting untuk kesehatan.',NULL,5,NULL),
-(47,'Es ABCD','Es nya Upin Ipin, singkatan dari Ais Batu Campur Deh. Isian kacang merah, nangka, es krim vanilla, dan jagung Maniez... ','EsABCD.jpg',6,NULL);
+(47,'Es ABCD','Es nya Upin Ipin, singkatan dari Ais Batu Campur Deh. Isian kacang merah, nangka, es krim vanilla, dan jagung Maniez... ','EsABCD.jpg',6,NULL),
+(48,'Es Coklat Uncle','Perpaduan es krim coklat dan toping semangka, choco ball, dan kacang crumble.','EsCoklatFountain.jpg',6,NULL);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
