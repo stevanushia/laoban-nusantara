@@ -288,6 +288,63 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                             ?>
                             <!-- Hot Drink -->
 
+
+                            <!-- Hot Drink -->
+                            <?php
+                                $total_rows = count($arrColdDrink);
+                                // Calculate the number of items for left and right sections
+                                $left_items = $right_items = ceil($total_rows / 2);
+                            
+                                echo "<article id='tabs-5'>
+                                        <div class='row'>
+                                            <div class='col-lg-6'>
+                                                <div class='row'>
+                                                    <div class='left-list'>";
+                                    // Generate HTML for left section
+                                    for ($i = 0; $i < $left_items; $i++) {
+                                        echo "<div class='col-lg-12' style='height: 200px'>
+                                                <div class='tab-item'>
+                                                    <img src='assets/images/ice-drink/{$arrColdDrink[$i]['photo']}' alt=''>
+                                                    <h4>{$arrColdDrink[$i]['name']}</h4>
+                                                    <p>{$arrColdDrink[$i]['description']}</p>";
+                                                    if ($arrColdDrink[$i]['favorit']) {
+                                                        echo "<div class='price'>
+                                                            <h6><i class='fa fa-star'></i></h6>
+                                                        </div>";
+                                                    }
+                                                echo"</div>
+                                            </div>";
+                                    }
+                                    echo "</div>
+                                        </div>
+                                    </div>
+                                        <div class='col-lg-6'>
+                                            <div class='row'>
+                                                <div class='right-list'>";
+                                    // Generate HTML for right section
+                                    for ($i = $left_items; $i < $total_rows; $i++) {
+                                        echo "<div class='col-lg-12' style='height: 200px'>
+                                                <div class='tab-item'>
+                                                    <img src='assets/images/ice-drink/{$arrColdDrink[$i]['photo']}' alt=''>
+                                                    <h4>{$arrColdDrink[$i]['name']}</h4>
+                                                    <p>{$arrColdDrink[$i]['description']}</p>";
+
+                                                    if ($arrColdDrink[$i]['favorit']) {
+                                                        echo "<div class='price'>
+                                                            <h6><i class='fa fa-star'></i></h6>
+                                                        </div>";
+                                                    }
+                                                echo"</div>
+                                            </div>";
+                                    }
+                                    echo "</div>
+                                        </div>
+                                    </div>
+                                </article>";
+                            ?>
+                            <!-- Hot Drink -->
+
+
                             <!-- Si Bikin Seger -->
                             <?php
                                 $total_rows = count($arrSiBikinSeger);
@@ -306,6 +363,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                                     <img src='assets/images/si-bikin-seger/{$arrSiBikinSeger[$i]['photo']}' alt=''>
                                                     <h4>{$arrSiBikinSeger[$i]['name']}</h4>
                                                     <p>{$arrSiBikinSeger[$i]['description']}</p>";
+
                                                     if ($arrSiBikinSeger[$i]['favorit']) {
                                                         echo "<div class='price'>
                                                             <h6><i class='fa fa-star'></i></h6>
