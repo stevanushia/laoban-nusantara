@@ -83,10 +83,12 @@ include_once __DIR__."/template/header.php";
                                 <h6>Founder Laoban Nusantara</h6>
                                 <h2 style="margin-bottom: -45px;">ALVIN OSH</h2>
                             </div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus maxime, repudiandae facere ad exercitationem ea laborum nostrum libero praesentium autem expedita minima iusto atque in commodi! Incidunt nisi inventore praesentium?
-                            Sequi, architecto in excepturi et, doloremque iste, consectetur vitae tempora sit hic dicta illum qui. Ratione enim nisi delectus atque modi reprehenderit aspernatur ducimus, ut vero, quod omnis excepturi! Tempora!
-                            At vitae rem minus aut quasi placeat praesentium. Quasi fugiat recusandae aliquid ipsam, fugit molestiae provident vel soluta unde ratione incidunt dolores esse repellendus sapiente optio, nemo eum eaque vitae.
+                            <p>
+                                Jadilah bagian dari keluarga besar Laoban Nusantara. Bertumbuh bersama memajukan industri F&B di Indonesia.
                             </p> 
+                            <p> 
+                                Yuk Mampir ke Outlet terdekat kami, Udah Cobain Menu-menu terbaru dari Laoban Nusantara belum???
+                            </p>    
                         </div>
                     </div>
                 </div>
