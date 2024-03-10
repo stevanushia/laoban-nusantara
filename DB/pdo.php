@@ -12,7 +12,7 @@ class DB {
     }
 
     private static function connectDatabase(){
-        $host = "srv1319.hstgr.io";
+        $host = "153.92.15.11";
         $db = "u540028336_laobandb";
         $user = "u540028336_laoban";
         $pass = "Laoban_Nusantara123";
