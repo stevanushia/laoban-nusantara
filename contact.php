@@ -33,7 +33,11 @@ include_once __DIR__."/template/header.php"; ?>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img style="height: 700px; border-radius: 25px; margin-left: 100px;"  src="assets/images/partnershipStep.png" alt="">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 col-sm-10">
+                            <img class="img-fluid mt-4" style="border-radius: 25px;" src="assets/images/partnershipStep.png" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
