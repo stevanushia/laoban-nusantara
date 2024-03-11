@@ -12,7 +12,7 @@ class DB {
     }
 
     private static function connectDatabase(){
-        $host = "153.92.15.11";
+        $host = "localhost";
         $db = "u540028336_laobandb";
         $user = "u540028336_laoban";
         $pass = "Laoban_Nusantara123";
