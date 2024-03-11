@@ -9,3 +9,4 @@ vendor/autoload.php
 vendor/composer/installed.json
 vendor/composer/installed.php
 vendor/composer/InstalledVersions.php
+DB/pdo.php
