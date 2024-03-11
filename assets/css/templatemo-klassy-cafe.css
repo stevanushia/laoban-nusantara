@@ -674,11 +674,11 @@ banner
 }
 
 #top .left-content h4 {
-  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Dancing Script', cursive; */
   color: #fff;
-  font-size: 54px;
+  font-size: 40px;
   font-weight: 700;
-}
+} 
 
 #top .left-content h6 {
   font-size: 15px;
