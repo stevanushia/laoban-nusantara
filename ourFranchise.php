@@ -152,7 +152,7 @@ include_once __DIR__."/template/header.php"; ?>
                     <h2 class="accordion-header">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
-                            <strong>Laoban Kopitiam Binus, Malang</strong>
+                            <strong class="rounded" style="background-color: #a40404; color: white;">Laoban Kopitiam Binus, Malang</strong>
                         </button>
                     </h2>
                     <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -338,7 +338,7 @@ include_once __DIR__."/template/header.php"; ?>
             <!-- ACCORDION BOOTSTRAP -->
         </div>
 
-        <div class="col-md-8">
+        <div class="col-md-8 rounded-4">  
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
