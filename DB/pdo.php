@@ -12,10 +12,10 @@ class DB {
     }
 
     private static function connectDatabase(){
-        $host = "153.92.15.11";
-        $db = "u540028336_laobandb";
-        $user = "u540028336_laoban";
-        $pass = "Laoban_Nusantara123";
+        $host = "localhost";
+        $db = "laoban_nusantara";
+        $user = "root";
+        $pass = "";
         $options = [
             \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION,
             \PDO::ATTR_DEFAULT_FETCH_MODE => \PDO::FETCH_ASSOC,
