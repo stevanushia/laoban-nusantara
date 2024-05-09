@@ -32,6 +32,10 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
         padding: 0px;
         background-color: #FFFAFA;
     }
+
+    .img-enlargable{
+        cursor: pointer;
+    }
 </style>
 <!-- ***** Menu Area Starts ***** -->
 <section class="section" id="offers">
@@ -81,7 +85,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                     for ($i = 0; $i < $left_items; $i++) {
                                         echo "<div class='col-lg-12' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img src='assets/images/main-dish/{$arrMainDish[$i]['photo']}' alt=''>
+                                                    <img data-enlargable src='assets/images/main-dish/{$arrMainDish[$i]['photo']}' alt=''>
                                                     <h4>{$arrMainDish[$i]['name']}</h4>
                                                     <p>{$arrMainDish[$i]['description']}</p>";
 
@@ -103,7 +107,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                     for ($i = $left_items; $i < $total_rows; $i++) {
                                         echo "<div class='col-lg-12' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img src='assets/images/main-dish/{$arrMainDish[$i]['photo']}' alt=''>
+                                                    <img data-enlargable src='assets/images/main-dish/{$arrMainDish[$i]['photo']}' alt=''>
                                                     <h4>{$arrMainDish[$i]['name']}</h4>
                                                     <p>{$arrMainDish[$i]['description']}</p>";
 
@@ -138,7 +142,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                     for ($i = 0; $i < $left_items; $i++) {
                                         echo "<div class='col-lg-12' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img src='assets/images/snack/{$arrSnack[$i]['photo']}' alt=''>
+                                                    <img data-enlargable src='assets/images/snack/{$arrSnack[$i]['photo']}' alt=''>
                                                     <h4>{$arrSnack[$i]['name']}</h4>
                                                     <p>{$arrSnack[$i]['description']}</p>";
                                                     if ($arrSnack[$i]['favorit']) {
