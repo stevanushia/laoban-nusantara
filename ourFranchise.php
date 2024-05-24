@@ -12,6 +12,8 @@ include_once __DIR__."/template/header.php"; ?>
 }
 
 </style>
+
+
 <section class="section" id="menu" style="margin-top: 20px;">
     <!-- <div class="container">
         <div class="row">
@@ -365,5 +367,99 @@ include_once __DIR__."/template/header.php"; ?>
     <!-- </div> -->
 
 </section>
+
+<script>
+    // Define images for each accordion item
+    const images = {
+        //Laoban Kopitiam Suhat, Malang (Pusat)
+        collapseFour: [
+            'assets/images/outlet/suhat_1.png',
+            'assets/images/outlet/suhat_2.png'
+        ],
+        //Laoban Kopitiam Binus, Malang
+        collapseTwelve: [
+            'assets/images/outlet/binus_1.png',
+            'assets/images/outlet/binus_2.png'
+        ],
+        //Laoban Kopitiam Wiyung, Surabaya
+        collapseOne: [
+            'assets/images/outlet/wiyung_1.png',
+            'assets/images/outlet/wiyung_2.png'
+        ],
+        //Laoban Kopitiam Mulyosari, Surabaya
+        collapseTwo: [
+            'assets/images/outlet/mulyosari_1.png',
+            'assets/images/outlet/mulyosari_2.png'
+        ],
+        //Laoban Kopitiam Baratajaya, Surabaya
+        collapseEight: [
+            'assets/images/outlet/binus_1.png',
+            'assets/images/outlet/binus_2.png'
+        ],
+        //Laoban Kopitiam Denpasar
+        collapseThree: [
+            'assets/images/outlet/binus_1.png',
+            'assets/images/outlet/binus_2.png'
+        ],
+        //Laoban Kopitiam Makassar
+        collapseFive: [
+            'assets/images/outlet/binus_1.png',
+            'assets/images/outlet/binus_2.png'
+        ],
+        //Laoban Kopitiam Tulungagung
+        collapseSix: [
+            'assets/images/outlet/binus_1.png',
+            'assets/images/outlet/binus_2.png'
+        ],
+        //Laoban Kopitiam Mojokerto
+        collapseSeven: [
+            'assets/images/outlet/binus_1.png',
+            'assets/images/outlet/binus_2.png'
+        ],
+        //Laoban Kopitiam Probolinggo
+        collapseNine: [
+            'assets/images/outlet/binus_1.png',
+            'assets/images/outlet/binus_2.png'
+        ],
+        //Laoban Kopitiam Jember
+        collapseTen: [
+            'assets/images/outlet/binus_1.png',
+            'assets/images/outlet/binus_2.png'
+        ],
+        //Laoban Kopitiam Bandung
+        collapseEleven: [
+            'assets/images/outlet/binus_1.png',
+            'assets/images/outlet/binus_2.png'
+        ]
+        // Add other image sets for other accordion items
+    };
+
+    // Event listener for accordion buttons
+    document.querySelectorAll('.accordion-button').forEach(button => {
+        button.addEventListener('click', function () {
+            const targetId = this.getAttribute('data-bs-target').substring(1);
+            if (images[targetId]) {
+                updateCarousel(images[targetId]);
+            }
+        });
+    });
+
+    // Function to update carousel items
+    function updateCarousel(imageArray) {
+        const carouselInner = document.querySelector('.carousel-inner');
+        carouselInner.innerHTML = '';
+
+        imageArray.forEach((src, index) => {
+            const div = document.createElement('div');
+            div.className = `carousel-item ${index === 0 ? 'active' : ''}`;
+            const img = document.createElement('img');
+            img.src = src;
+            img.className = 'rounded-4 mx-auto d-block w-50';
+            img.alt = '...';
+            div.appendChild(img);
+            carouselInner.appendChild(div);
+        });
+    }
+</script>
 <!-- ***** Franchise Area Ends ***** -->
 <?php include_once __DIR__."/template/footer.php"; ?>
