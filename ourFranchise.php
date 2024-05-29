@@ -384,7 +384,9 @@ include_once __DIR__."/template/header.php"; ?>
         //Laoban Kopitiam Wiyung, Surabaya
         collapseOne: [
             'assets/images/outlet/wiyung_1.png',
-            'assets/images/outlet/wiyung_2.png'
+            'assets/images/outlet/wiyung_2.png',
+            'assets/images/outlet/wiyung_3.png',
+            'assets/images/outlet/wiyung_4.png',
         ],
         //Laoban Kopitiam Mulyosari, Surabaya
         collapseTwo: [
