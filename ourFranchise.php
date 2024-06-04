@@ -335,7 +335,22 @@ include_once __DIR__."/template/header.php"; ?>
                     </div>
                 </div>
     
-    
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsetwelve" aria-expanded="false" aria-controls="collapsetwelve">
+                            <strong>Laoban Kopitiam Benhill, Jakarta</strong>
+                        </button>
+                    </h2>
+                    <div id="collapsetwelve" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4330315089715!2d106.80642207431285!3d-6.206471893781319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7007bb009bd%3A0xab5fe035c7bae1da!2sLAOBAN%20BENHIL%20by%20Uncle%20Osh!5e0!3m2!1sid!2sid!4v1717483719378!5m2!1sid!2sid"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <!-- ACCORDION BOOTSTRAP -->
         </div>
@@ -373,63 +388,71 @@ include_once __DIR__."/template/header.php"; ?>
     const images = {
         //Laoban Kopitiam Suhat, Malang (Pusat)
         collapseFour: [
-            'assets/images/outlet/suhat_1.png',
-            'assets/images/outlet/suhat_2.png'
+            'assets/images/outlet/suhat_1.jpg',
+            'assets/images/outlet/suhat_2.jpg',
         ],
         //Laoban Kopitiam Binus, Malang
         collapseTwelve: [
-            'assets/images/outlet/binus_1.png',
-            'assets/images/outlet/binus_2.png'
+            'assets/images/outlet/binus_1.jpg',
+            'assets/images/outlet/binus_2.jpg',
         ],
         //Laoban Kopitiam Wiyung, Surabaya
         collapseOne: [
             'assets/images/outlet/wiyung_1.png',
-            'assets/images/outlet/wiyung_2.png'
+            'assets/images/outlet/wiyung_2.png',
+            'assets/images/outlet/wiyung_3.png',
+            'assets/images/outlet/wiyung_4.png',
         ],
         //Laoban Kopitiam Mulyosari, Surabaya
         collapseTwo: [
             'assets/images/outlet/mulyosari_1.png',
-            'assets/images/outlet/mulyosari_2.png'
+            'assets/images/outlet/mulyosari_2.png',
+            'assets/images/outlet/mulyosari_3.png',
+            'assets/images/outlet/mulyosari_4.png',
         ],
         //Laoban Kopitiam Baratajaya, Surabaya
         collapseEight: [
             'assets/images/outlet/binus_1.png',
-            'assets/images/outlet/binus_2.png'
+            'assets/images/outlet/binus_2.png',
         ],
         //Laoban Kopitiam Denpasar
         collapseThree: [
-            'assets/images/outlet/binus_1.png',
-            'assets/images/outlet/binus_2.png'
+            'assets/images/outlet/Denpasar_1.jpg',
+            'assets/images/outlet/Denpasar_2.jpg',
+            'assets/images/outlet/Denpasar_3.jpg',
+            'assets/images/outlet/Denpasar_4.jpg',
+            'assets/images/outlet/Denpasar_5.jpg',
         ],
         //Laoban Kopitiam Makassar
         collapseFive: [
             'assets/images/outlet/binus_1.png',
-            'assets/images/outlet/binus_2.png'
+            'assets/images/outlet/binus_2.png',
         ],
         //Laoban Kopitiam Tulungagung
         collapseSix: [
-            'assets/images/outlet/binus_1.png',
-            'assets/images/outlet/binus_2.png'
+            'assets/images/outlet/Tulungagung_1.jpg',
+            'assets/images/outlet/Tulungagung_2.jpg',
+            'assets/images/outlet/Tulungagung_3.jpg',
         ],
         //Laoban Kopitiam Mojokerto
         collapseSeven: [
             'assets/images/outlet/binus_1.png',
-            'assets/images/outlet/binus_2.png'
+            'assets/images/outlet/binus_2.png',
         ],
         //Laoban Kopitiam Probolinggo
         collapseNine: [
-            'assets/images/outlet/binus_1.png',
-            'assets/images/outlet/binus_2.png'
+            'assets/images/outlet/probolinggo_1.jpg',
+            'assets/images/outlet/probolinggo_2.jpg',
         ],
         //Laoban Kopitiam Jember
         collapseTen: [
             'assets/images/outlet/binus_1.png',
-            'assets/images/outlet/binus_2.png'
+            'assets/images/outlet/binus_2.png',
         ],
         //Laoban Kopitiam Bandung
         collapseEleven: [
             'assets/images/outlet/binus_1.png',
-            'assets/images/outlet/binus_2.png'
+            'assets/images/outlet/binus_2.png',
         ]
         // Add other image sets for other accordion items
     };
