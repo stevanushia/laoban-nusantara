@@ -64,9 +64,9 @@ include_once __DIR__."/template/header.php";
                             <div class="thumb">
                                 <div class="overlay"></div>
                                 <ul class="social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                    <li><a href="https://www.instagram.com/alvinoshosh/"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/alvin-osh-0385aa301?trk=people-search-result"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.tiktok.com/@tukangtoast"><i class="fa-brands fa-tiktok"></i></a></li>
                                 </ul>
                                 <img src="assets/images/FotoCEO.jpg" alt="Founder" style="width: 325px;" >
                             </div>
