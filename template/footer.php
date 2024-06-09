@@ -8,7 +8,7 @@
                             <li><a href="https://www.instagram.com/laoban.nusantara/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                             <li><a href="https://wa.me/+6282244503221" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
                             <li><a href="https://www.facebook.com/profile.php?id=100087203203713"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://linktr.ee/MeLuxurious?utm_source=linktree_admin_share"><i class="fa fa-link"></i></a></li>
+                            <li><a href="https://linktr.ee/MeLuxurious?utm_source=linktree_admin_share" target="_blank"><i class="fa fa-link"></i></a></li>
                         </ul>
                     </div>
                 </div>
