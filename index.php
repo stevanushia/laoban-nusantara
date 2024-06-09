@@ -24,7 +24,7 @@ include_once __DIR__."/template/header.php";
                     <div class="main-banner header-text">
                         <div class="Modern-Slider">
                             <?php
-                                for ($i=1; $i < 4; $i++) {  
+                                for ($i=1; $i < 9; $i++) {  
                                     ?>
                                         <!-- Item -->
                                         <div class="item">
