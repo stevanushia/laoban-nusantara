@@ -5,130 +5,56 @@ include_once __DIR__."/template/header.php"; ?>
 <!-- ***** Franchise Area Starts ***** -->
 <style>
     /* Customize the color of the previous and next icons */
-.carousel-control-prev-icon,
+    .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: black; /* Change the color to black */
-
+    background-image: none;
+    border: none;
 }
 
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.carousel-control-prev-icon::after {
+    transform: rotate(-135deg);
+    margin-left: 5px;
+}
+
+.carousel-control-next-icon::after {
+    transform: rotate(45deg);
+    margin-right: 5px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: none;
+    border: none;
+}
+
+
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .carousel-item {
+        height: 100%;
+    }
+
+    .carousel-item img {
+        height: 100%;
+        object-fit: contain;
+        /* or cover depending on your preference */
+    }
 </style>
 
 
 <section class="section" id="menu" style="margin-top: 20px;">
-    <!-- <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="section-heading">
-                    <h6>Our Franchise</h6>
-                    <h2>Our selection of cakes with quality taste</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="menu-item-carousel">
-        <div class="col-lg-12">
-            <div class="owl-menu-item owl-carousel">
-                <div class="item">
-                    <div class='card card1'>
-                        <div class="price">
-                            <h6>$14</h6>
-                        </div>
-                        <div class='info'>
-                            <h1 class='title'>Chocolate Cake</h1>
-                            <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do
-                                eiusmod teme.</p>
-                            <div class="main-text-button">
-                                <div class="scroll-to-section"><a href="#reservation">Make Reservation <i
-                                            class="fa fa-angle-down"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class='card card2'>
-                        <div class="price">
-                            <h6>$22</h6>
-                        </div>
-                        <div class='info'>
-                            <h1 class='title'>Klassy Pancake</h1>
-                            <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do
-                                eiusmod teme.</p>
-                            <div class="main-text-button">
-                                <div class="scroll-to-section"><a href="#reservation">Make Reservation <i
-                                            class="fa fa-angle-down"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class='card card3'>
-                        <div class="price">
-                            <h6>$18</h6>
-                        </div>
-                        <div class='info'>
-                            <h1 class='title'>Tall Klassy Bread</h1>
-                            <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do
-                                eiusmod teme.</p>
-                            <div class="main-text-button">
-                                <div class="scroll-to-section"><a href="#reservation">Make Reservation <i
-                                            class="fa fa-angle-down"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class='card card4'>
-                        <div class="price">
-                            <h6>$10</h6>
-                        </div>
-                        <div class='info'>
-                            <h1 class='title'>Blueberry CheeseCake</h1>
-                            <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do
-                                eiusmod teme.</p>
-                            <div class="main-text-button">
-                                <div class="scroll-to-section"><a href="#reservation">Make Reservation <i
-                                            class="fa fa-angle-down"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class='card card5'>
-                        <div class="price">
-                            <h6>$8.50</h6>
-                        </div>
-                        <div class='info'>
-                            <h1 class='title'>Klassy Cup Cake</h1>
-                            <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do
-                                eiusmod teme.</p>
-                            <div class="main-text-button">
-                                <div class="scroll-to-section"><a href="#reservation">Make Reservation <i
-                                            class="fa fa-angle-down"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class='card card3'>
-                        <div class="price">
-                            <h6>$7.25</h6>
-                        </div>
-                        <div class='info'>
-                            <h1 class='title'>Klassic Cake</h1>
-                            <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do
-                                eiusmod teme.</p>
-                            <div class="main-text-button">
-                                <div class="scroll-to-section"><a href="#reservation">Make Reservation <i
-                                            class="fa fa-angle-down"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br><br><br><br><br><br><br><br>
-    <br><br><br><br> -->
 
     <div class="row" style="margin-left: 25px;">
         <div class="col-6 col-md-4">
@@ -154,7 +80,7 @@ include_once __DIR__."/template/header.php"; ?>
                     <h2 class="accordion-header">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
-                            <strong class="rounded" style="background-color: #a40404; color: white;">Laoban Kopitiam Binus, Malang</strong>
+                            <strong class="rounded">Laoban Kopitiam Binus, Malang</strong>
                         </button>
                     </h2>
                     <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -198,7 +124,7 @@ include_once __DIR__."/template/header.php"; ?>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -215,7 +141,7 @@ include_once __DIR__."/template/header.php"; ?>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -232,7 +158,7 @@ include_once __DIR__."/template/header.php"; ?>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -249,7 +175,7 @@ include_once __DIR__."/template/header.php"; ?>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -266,7 +192,7 @@ include_once __DIR__."/template/header.php"; ?>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -283,7 +209,7 @@ include_once __DIR__."/template/header.php"; ?>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -300,7 +226,7 @@ include_once __DIR__."/template/header.php"; ?>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -317,7 +243,7 @@ include_once __DIR__."/template/header.php"; ?>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -334,7 +260,7 @@ include_once __DIR__."/template/header.php"; ?>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -344,9 +270,10 @@ include_once __DIR__."/template/header.php"; ?>
                     </h2>
                     <div id="collapseThirteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4330315089715!2d106.80642207431285!3d-6.206471893781319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7007bb009bd%3A0xab5fe035c7bae1da!2sLAOBAN%20BENHIL%20by%20Uncle%20Osh!5e0!3m2!1sid!2sid!4v1717483719378!5m2!1sid!2sid"
-                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4330315089715!2d106.80642207431285!3d-6.206471893781319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7007bb009bd%3A0xab5fe035c7bae1da!2sLAOBAN%20BENHIL%20by%20Uncle%20Osh!5e0!3m2!1sid!2sid!4v1717483719378!5m2!1sid!2sid"
+                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
@@ -355,14 +282,17 @@ include_once __DIR__."/template/header.php"; ?>
             <!-- ACCORDION BOOTSTRAP -->
         </div>
 
-        <div class="col-md-8 rounded-4">  
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="assets/images/outlet/wiyung_1.png" class="rounded-4 mx-auto d-block w-50" alt="...">
+        <div class="col-md-8 rounded-4">
+            <div id="carouselExampleAutoplaying" class="carousel slide h-100" data-bs-ride="carousel"
+                style="height: 100%;">
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item active h-100">
+                        <img src="assets/images/outlet/wiyung_1.png" class="rounded-4 mx-auto d-block w-50 h-100"
+                            alt="...">
                     </div>
-                    <div class="carousel-item">
-                        <img src="assets/images/outlet/wiyung_2.png" class="rounded-4 mx-auto d-block w-50" alt="...">
+                    <div class="carousel-item h-100">
+                        <img src="assets/images/outlet/wiyung_2.png" class="rounded-4 mx-auto d-block w-50 h-100"
+                            alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -377,6 +307,7 @@ include_once __DIR__."/template/header.php"; ?>
                 </button>
             </div>
         </div>
+
     </div>
 
     <!-- </div> -->
