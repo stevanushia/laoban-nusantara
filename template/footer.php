@@ -8,7 +8,9 @@
                             <li><a href="https://www.instagram.com/laoban.nusantara/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                             <li><a href="https://wa.me/+6282244503221" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
                             <li><a href="https://www.facebook.com/profile.php?id=100087203203713"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://linktr.ee/MeLuxurious?utm_source=linktree_admin_share"><i class="fa fa-link"></i></a></li>
+                            <li><a href="https://linktr.ee/MeLuxurious?utm_source=linktree_admin_share" target="_blank"><i class="fa fa-link"></i></a></li>
+                            <li><a href="https://www.tiktok.com/@laoban.nusantara" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                        </ul>
                         </ul>
                     </div>
                 </div>
@@ -63,6 +65,23 @@
 
             });
         });
+    </script>
+
+    <script>
+        $('img[data-enlargable]').addClass('img-enlargable').click(function(){
+        var src = $(this).attr('src');
+        $('<div>').css({
+            background: 'RGBA(0,0,0,.5) url('+src+') no-repeat center',
+            backgroundSize: 'contain',
+            width:'100%', height:'100%',
+            position:'fixed',
+            zIndex:'10000',
+            top:'0', left:'0',
+            cursor: 'zoom-out'
+        }).click(function(){
+            $(this).remove();
+        }).appendTo('body');
+    });
     </script>
 
 </body>
