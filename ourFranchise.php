@@ -55,6 +55,14 @@ include_once __DIR__."/template/header.php"; ?>
 
 
 <section class="section" id="menu" style="margin-top: 20px;">
+    <div class="row">
+        <div class="col-lg-4 offset-lg-4 text-center">
+            <div class="section-heading">
+                <h6>Our Franchise</h6>
+                <h2>Kunjungi Lokasi Kami!</h2>
+            </div>
+        </div>
+    </div>
 
     <div class="row" style="margin-left: 25px;">
         <div class="col-6 col-md-4">
@@ -67,7 +75,7 @@ include_once __DIR__."/template/header.php"; ?>
                             <strong>Laoban Kopitiam Suhat, Malang (Pusat)</strong>
                         </button>
                     </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d126449.96895010203!2d112.54751546940913!3d-7.940776492494127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x2dd6298ddfd73cf5%3A0xbeb5ae954f915c2c!2sJl.%20Soekarno%20Hatta%20Indah%20No.17%2C%20Mojolangu%2C%20Kec.%20Lowokwaru%2C%20Kota%20Malang%2C%20Jawa%20Timur%2065142!3m2!1d-7.9407812!2d112.6299076!5e0!3m2!1sen!2sid!4v1715249968798!5m2!1sen!2sid"
@@ -78,8 +86,8 @@ include_once __DIR__."/template/header.php"; ?>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
+                        <button class="accordion-button collapse" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
                             <strong class="rounded">Laoban Kopitiam Binus, Malang</strong>
                         </button>
                     </h2>
@@ -94,8 +102,8 @@ include_once __DIR__."/template/header.php"; ?>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <button class="accordion-button collapse" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                             <strong>Laoban Kopitiam Wiyung, Surabaya</strong>
                         </button>
                     </h2>
