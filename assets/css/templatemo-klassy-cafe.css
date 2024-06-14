@@ -929,6 +929,10 @@ menu
   margin-bottom: 80px;
 }
 
+#menu .section-heading h6:before {
+  display: none;
+}
+
 .card {
   margin: 0 auto;
   max-width: 100%;
