@@ -287,11 +287,11 @@ include_once __DIR__."/template/header.php"; ?>
                 style="height: 100%;">
                 <div class="carousel-inner h-100">
                     <div class="carousel-item active h-100">
-                        <img src="assets/images/outlet/wiyung_1.png" class="rounded-4 mx-auto d-block w-50 h-100"
+                        <img src="assets/images/outlet/suhat_1.jpg" class="rounded-4 mx-auto d-block w-50 h-100"
                             alt="...">
                     </div>
                     <div class="carousel-item h-100">
-                        <img src="assets/images/outlet/wiyung_2.png" class="rounded-4 mx-auto d-block w-50 h-100"
+                        <img src="assets/images/outlet/suhat_2.jpg" class="rounded-4 mx-auto d-block w-50 h-100"
                             alt="...">
                     </div>
                 </div>
