@@ -86,33 +86,31 @@ include_once __DIR__."/template/header.php"; ?>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapse" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-                            <strong class="rounded">Laoban Kopitiam Binus, Malang</strong>
+                            <strong>Laoban Kopitiam Binus, Malang</strong>
                         </button>
                     </h2>
                     <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.551008432692!2d112.68130327433185!3d-7.94187009208232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd62943bed1ea39%3A0x4481cf517a9ea1c9!2sLaoban%20Kopitiam%20Binus!5e0!3m2!1sid!2sid!4v1715252212941!5m2!1sid!2sid"
-                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.5510083565127!2d112.6838782!3d-7.941870099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd62943bed1ea39%3A0x4481cf517a9ea1c9!2sLaoban%20Kopitiam%20Binus!5e0!3m2!1sid!2sid!4v1718477028539!5m2!1sid!2sid" 
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapse" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                             <strong>Laoban Kopitiam Wiyung, Surabaya</strong>
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d126636.47532793586!2d112.59536746260862!3d-7.3100251218240375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x2dd7fd565360e6d9%3A0x1bd8698e8ca3be00!2sJl.%20Raya%20Menganti%2C%20Babatan%2C%20Kec.%20Wiyung%2C%20Surabaya%2C%20Jawa%20Timur%2060227!3m2!1d-7.310006199999999!2d112.6777754!5e0!3m2!1sen!2sid!4v1715233787175!5m2!1sen!2sid"
-                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.3897877391646!2d112.67776939999999!3d-7.3100325999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd565360e6d9%3A0x1bd8698e8ca3be00!2sLaoban%20Kopitiam%20Wiyung!5e0!3m2!1sid!2sid!4v1718477308162!5m2!1sid!2sid" 
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
@@ -286,6 +284,22 @@ include_once __DIR__."/template/header.php"; ?>
                     </div>
                 </div>
 
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                            <strong>Laoban Kopitiam Tebet, Jakarta Selatan</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseFourteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3388.138548917801!2d106.84896456563716!3d-6.234382728971014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f30ad900c765%3A0x3fda54d808fc5622!2sLAOBAN%20TEBET%20by%20Uncle%20Osh!5e0!3m2!1sid!2sid!4v1718476370839!5m2!1sid!2sid" 
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <!-- ACCORDION BOOTSTRAP -->
         </div>
@@ -417,6 +431,18 @@ include_once __DIR__."/template/header.php"; ?>
             'assets/images/outlet/benhill_3.jpg',
             'assets/images/outlet/benhill_4.jpg',
             'assets/images/outlet/benhill_5.jpg',
+        ],
+
+        //Laoban Kopitiam Bandung
+        collapseFourteen: [
+            'assets/images/outlet/tebet_1.jpg',
+            'assets/images/outlet/tebet_2.jpg',
+            'assets/images/outlet/tebet_3.jpg',
+            'assets/images/outlet/tebet_4.jpg',
+            'assets/images/outlet/tebet_5.jpg',
+            'assets/images/outlet/tebet_6.jpg',
+            'assets/images/outlet/tebet_7.jpg',
+            'assets/images/outlet/tebet_8.jpg',
         ]
         // Add other image sets for other accordion items
     };
