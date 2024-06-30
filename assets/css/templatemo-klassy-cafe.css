@@ -1467,11 +1467,11 @@ offers
   font-weight: 700;
   color: #2a2a2a;
   margin-bottom: 10px;
-  margin-right: 100px;
+  /* margin-right: 100px; */
 }
 
 #offers .tabs-content p {
-  margin-right: 100px;
+  /* margin-right: 100px; */
 }
 
 #offers .tabs-content .left-list {

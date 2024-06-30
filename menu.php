@@ -61,7 +61,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                         <li><a href='#tabs-3'><img src="assets/images/logo-dimsum.png" alt="" class="iconMenu"></h6>Dimsum</a></li>
                                         <li><a href='#tabs-4'><h6 class='iconMenu'><i class="fa-solid fa-mug-hot" style="color: #a60100;"></i></h6>Hot Drink</a></a></li>
                                         <li><a href='#tabs-5'><h6 class='iconMenu'><i class="fa-solid fa-martini-glass" style="color: #a60100;"></i></h6>Cold Drink</a></a></li>
-                                        <li><a href='#tabs-6'><h6 class='iconMenu' style="width: 68px; margin-left: 15px;"><i class="fa-solid fa-martini-glass-citrus" style="color: #a60100;"></i></h6>Si Bikin Seger</a></a></li>
+                                        <li><a href='#tabs-6'><h6 class='iconMenu' style="width: 68px; margin-left: 15px;"><i class="fa-solid fa-martini-glass-citrus" style="color: #a60100;"></i></h6>Ice & Dessert</a></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -83,17 +83,16 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                                     <div class='left-list'>";
                                     // Generate HTML for left section
                                     for ($i = 0; $i < $left_items; $i++) {
-                                        echo "<div class='col-lg-12' style='height: 200px'>
+                                        echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/main-dish/{$arrMainDish[$i]['photo']}' alt=''>
-                                                    <h4>{$arrMainDish[$i]['name']}</h4>
-                                                    <p>{$arrMainDish[$i]['description']}</p>";
-
+                                                    <img data-enlargable src='assets/images/main-dish/{$arrMainDish[$i]['photo']}' alt=''>";
                                                     if ($arrMainDish[$i]['favorit']) {
-                                                        echo "<div class='price'>
-                                                            <h6><i class='fa fa-star'></i></h6>
-                                                        </div>";
+                                                        echo "<h4>{$arrMainDish[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
+                                                    else{
+                                                        echo "<h4>{$arrMainDish[$i]['name']}</h4>";
+                                                    }
+                                                    echo "<p>{$arrMainDish[$i]['description']}</p>";
                                                 echo"</div>
                                             </div>";
                                     }
@@ -105,17 +104,16 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                                 <div class='right-list'>";
                                     // Generate HTML for right section
                                     for ($i = $left_items; $i < $total_rows; $i++) {
-                                        echo "<div class='col-lg-12' style='height: 200px'>
+                                        echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/main-dish/{$arrMainDish[$i]['photo']}' alt=''>
-                                                    <h4>{$arrMainDish[$i]['name']}</h4>
-                                                    <p>{$arrMainDish[$i]['description']}</p>";
-
+                                                    <img data-enlargable src='assets/images/main-dish/{$arrMainDish[$i]['photo']}' alt=''>";
                                                     if ($arrMainDish[$i]['favorit']) {
-                                                        echo "<div class='price'>
-                                                            <h6><i class='fa fa-star'></i></h6>
-                                                        </div>";
+                                                        echo "<h4>{$arrMainDish[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
+                                                    else{
+                                                        echo "<h4>{$arrMainDish[$i]['name']}</h4>";
+                                                    }
+                                                    echo "<p>{$arrMainDish[$i]['description']}</p>";
                                                 echo"</div>
                                             </div>";
                                     }
@@ -124,7 +122,6 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                     </div>
                                 </article>";
                             ?>
-
                             <!-- Main Dish -->
 
                             <!-- Snack -->
@@ -140,16 +137,16 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                                     <div class='left-list'>";
                                     // Generate HTML for left section
                                     for ($i = 0; $i < $left_items; $i++) {
-                                        echo "<div class='col-lg-12' style='height: 200px'>
+                                        echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/snack/{$arrSnack[$i]['photo']}' alt=''>
-                                                    <h4>{$arrSnack[$i]['name']}</h4>
-                                                    <p>{$arrSnack[$i]['description']}</p>";
+                                                    <img data-enlargable src='assets/images/snack/{$arrSnack[$i]['photo']}' alt=''>";
                                                     if ($arrSnack[$i]['favorit']) {
-                                                        echo "<div class='price'>
-                                                            <h6><i class='fa fa-star'></i></h6>
-                                                        </div>";
+                                                        echo "<h4>{$arrSnack[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
+                                                    else{
+                                                        echo "<h4>{$arrSnack[$i]['name']}</h4>";
+                                                    }
+                                                    echo"<p>{$arrSnack[$i]['description']}</p>";
                                                 echo"</div>
                                             </div>";
                                     }
@@ -161,17 +158,16 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                                 <div class='right-list'>";
                                     // Generate HTML for right section
                                     for ($i = $left_items; $i < $total_rows; $i++) {
-                                        echo "<div class='col-lg-12' style='height: 200px'>
+                                        echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/snack/{$arrSnack[$i]['photo']}' alt=''>
-                                                    <h4>{$arrSnack[$i]['name']}</h4>
-                                                    <p>{$arrSnack[$i]['description']}</p>";
-
+                                                    <img data-enlargable src='assets/images/snack/{$arrSnack[$i]['photo']}' alt=''>";
                                                     if ($arrSnack[$i]['favorit']) {
-                                                        echo "<div class='price'>
-                                                            <h6><i class='fa fa-star'></i></h6>
-                                                        </div>";
+                                                        echo "<h4>{$arrSnack[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
+                                                    else{
+                                                        echo "<h4>{$arrSnack[$i]['name']}</h4>";
+                                                    }
+                                                    echo"<p>{$arrSnack[$i]['description']}</p>";
                                                 echo"</div>
                                             </div>";
                                     }
@@ -195,16 +191,16 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                                     <div class='left-list'>";
                                     // Generate HTML for left section
                                     for ($i = 0; $i < $left_items; $i++) {
-                                        echo "<div class='col-lg-12' style='height: 200px'>
+                                        echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/dimsum/{$arrDimsum[$i]['photo']}' alt=''>
-                                                    <h4>{$arrDimsum[$i]['name']}</h4>
-                                                    <p>{$arrDimsum[$i]['description']}</p>";
+                                                    <img data-enlargable src='assets/images/dimsum/{$arrDimsum[$i]['photo']}' alt=''>";
                                                     if ($arrDimsum[$i]['favorit']) {
-                                                        echo "<div class='price'>
-                                                            <h6><i class='fa fa-star'></i></h6>
-                                                        </div>";
+                                                        echo "<h4>{$arrDimsum[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
+                                                    else{
+                                                        echo "<h4>{$arrDimsum[$i]['name']}</h4>";
+                                                    }
+                                                    echo"<p>{$arrDimsum[$i]['description']}</p>";
                                                 echo"</div>
                                             </div>";
                                     }
@@ -216,17 +212,16 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                                 <div class='right-list'>";
                                     // Generate HTML for right section
                                     for ($i = $left_items; $i < $total_rows; $i++) {
-                                        echo "<div class='col-lg-12' style='height: 200px'>
+                                        echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/dimsum/{$arrDimsum[$i]['photo']}' alt=''>
-                                                    <h4>{$arrDimsum[$i]['name']}</h4>
-                                                    <p>{$arrDimsum[$i]['description']}</p>";
-
+                                                    <img data-enlargable src='assets/images/dimsum/{$arrDimsum[$i]['photo']}' alt=''>";
                                                     if ($arrDimsum[$i]['favorit']) {
-                                                        echo "<div class='price'>
-                                                            <h6><i class='fa fa-star'></i></h6>
-                                                        </div>";
+                                                        echo "<h4>{$arrDimsum[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
+                                                    else{
+                                                        echo "<h4>{$arrDimsum[$i]['name']}</h4>";
+                                                    }
+                                                    echo"<p>{$arrDimsum[$i]['description']}</p>";
                                                 echo"</div>
                                             </div>";
                                     }
@@ -250,16 +245,16 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                                     <div class='left-list'>";
                                     // Generate HTML for left section
                                     for ($i = 0; $i < $left_items; $i++) {
-                                        echo "<div class='col-lg-12' style='height: 200px'>
+                                        echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/hot-drink/{$arrHotDrink[$i]['photo']}' alt=''>
-                                                    <h4>{$arrHotDrink[$i]['name']}</h4>
-                                                    <p>{$arrHotDrink[$i]['description']}</p>";
+                                                    <img data-enlargable src='assets/images/hot-drink/{$arrHotDrink[$i]['photo']}' alt=''>";
                                                     if ($arrHotDrink[$i]['favorit']) {
-                                                        echo "<div class='price'>
-                                                            <h6><i class='fa fa-star'></i></h6>
-                                                        </div>";
+                                                        echo "<h4>{$arrHotDrink[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
+                                                    else{
+                                                        echo "<h4>{$arrHotDrink[$i]['name']}</h4>";
+                                                    }
+                                                    echo"<p>{$arrHotDrink[$i]['description']}</p>";
                                                 echo"</div>
                                             </div>";
                                     }
@@ -271,17 +266,16 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                                 <div class='right-list'>";
                                     // Generate HTML for right section
                                     for ($i = $left_items; $i < $total_rows; $i++) {
-                                        echo "<div class='col-lg-12' style='height: 200px'>
+                                        echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/hot-drink/{$arrHotDrink[$i]['photo']}' alt=''>
-                                                    <h4>{$arrHotDrink[$i]['name']}</h4>
-                                                    <p>{$arrHotDrink[$i]['description']}</p>";
-
+                                                    <img data-enlargable src='assets/images/hot-drink/{$arrHotDrink[$i]['photo']}' alt=''>";
                                                     if ($arrHotDrink[$i]['favorit']) {
-                                                        echo "<div class='price'>
-                                                            <h6><i class='fa fa-star'></i></h6>
-                                                        </div>";
+                                                        echo "<h4>{$arrHotDrink[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
+                                                    else{
+                                                        echo "<h4>{$arrHotDrink[$i]['name']}</h4>";
+                                                    }
+                                                    echo"<p>{$arrHotDrink[$i]['description']}</p>";
                                                 echo"</div>
                                             </div>";
                                     }
@@ -293,7 +287,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                             <!-- Hot Drink -->
 
 
-                            <!-- Hot Drink -->
+                            <!-- Cold Drink -->
                             <?php
                                 $total_rows = count($arrColdDrink);
                                 // Calculate the number of items for left and right sections
@@ -306,16 +300,16 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                                     <div class='left-list'>";
                                     // Generate HTML for left section
                                     for ($i = 0; $i < $left_items; $i++) {
-                                        echo "<div class='col-lg-12' style='height: 200px'>
+                                        echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/ice-drink/{$arrColdDrink[$i]['photo']}' alt=''>
-                                                    <h4>{$arrColdDrink[$i]['name']}</h4>
-                                                    <p>{$arrColdDrink[$i]['description']}</p>";
+                                                    <img data-enlargable src='assets/images/ice-drink/{$arrColdDrink[$i]['photo']}' alt=''>";
                                                     if ($arrColdDrink[$i]['favorit']) {
-                                                        echo "<div class='price'>
-                                                            <h6><i class='fa fa-star'></i></h6>
-                                                        </div>";
+                                                        echo "<h4>{$arrColdDrink[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
+                                                    else{
+                                                        echo "<h4>{$arrColdDrink[$i]['name']}</h4>";
+                                                    }
+                                                    echo"<p>{$arrColdDrink[$i]['description']}</p>";
                                                 echo"</div>
                                             </div>";
                                     }
@@ -327,17 +321,16 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                                 <div class='right-list'>";
                                     // Generate HTML for right section
                                     for ($i = $left_items; $i < $total_rows; $i++) {
-                                        echo "<div class='col-lg-12' style='height: 200px'>
+                                        echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/ice-drink/{$arrColdDrink[$i]['photo']}' alt=''>
-                                                    <h4>{$arrColdDrink[$i]['name']}</h4>
-                                                    <p>{$arrColdDrink[$i]['description']}</p>";
-
+                                                    <img data-enlargable src='assets/images/ice-drink/{$arrColdDrink[$i]['photo']}' alt=''>";
                                                     if ($arrColdDrink[$i]['favorit']) {
-                                                        echo "<div class='price'>
-                                                            <h6><i class='fa fa-star'></i></h6>
-                                                        </div>";
+                                                        echo "<h4>{$arrColdDrink[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
+                                                    else{
+                                                        echo "<h4>{$arrColdDrink[$i]['name']}</h4>";
+                                                    }
+                                                    echo"<p>{$arrColdDrink[$i]['description']}</p>";
                                                 echo"</div>
                                             </div>";
                                     }
@@ -346,7 +339,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                     </div>
                                 </article>";
                             ?>
-                            <!-- Hot Drink -->
+                            <!-- Cold Drink -->
 
 
                             <!-- Si Bikin Seger -->
@@ -362,17 +355,16 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                                     <div class='left-list'>";
                                     // Generate HTML for left section
                                     for ($i = 0; $i < $left_items; $i++) {
-                                        echo "<div class='col-lg-12' style='height: 200px'>
+                                        echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/si-bikin-seger/{$arrSiBikinSeger[$i]['photo']}' alt=''>
-                                                    <h4>{$arrSiBikinSeger[$i]['name']}</h4>
-                                                    <p>{$arrSiBikinSeger[$i]['description']}</p>";
-
+                                                    <img data-enlargable src='assets/images/si-bikin-seger/{$arrSiBikinSeger[$i]['photo']}' alt=''>";
                                                     if ($arrSiBikinSeger[$i]['favorit']) {
-                                                        echo "<div class='price'>
-                                                            <h6><i class='fa fa-star'></i></h6>
-                                                        </div>";
+                                                        echo "<h4>{$arrSiBikinSeger[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
+                                                    else{
+                                                        echo "<h4>{$arrSiBikinSeger[$i]['name']}</h4>";
+                                                    }
+                                                    echo"<p>{$arrSiBikinSeger[$i]['description']}</p>";
                                                 echo"</div>
                                             </div>";
                                     }
@@ -384,17 +376,16 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                                 <div class='right-list'>";
                                     // Generate HTML for right section
                                     for ($i = $left_items; $i < $total_rows; $i++) {
-                                        echo "<div class='col-lg-12' style='height: 200px'>
+                                        echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/si-bikin-seger/{$arrSiBikinSeger[$i]['photo']}' alt=''>
-                                                    <h4>{$arrSiBikinSeger[$i]['name']}</h4>
-                                                    <p>{$arrSiBikinSeger[$i]['description']}</p>";
-
+                                                    <img data-enlargable src='assets/images/si-bikin-seger/{$arrSiBikinSeger[$i]['photo']}' alt=''>";
                                                     if ($arrSiBikinSeger[$i]['favorit']) {
-                                                        echo "<div class='price'>
-                                                            <h6><i class='fa fa-star'></i></h6>
-                                                        </div>";
+                                                        echo "<h4>{$arrSiBikinSeger[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
+                                                    else{
+                                                        echo "<h4>{$arrSiBikinSeger[$i]['name']}</h4>";
+                                                    }
+                                                    echo"<p>{$arrSiBikinSeger[$i]['description']}</p>";
                                                 echo"</div>
                                             </div>";
                                     }

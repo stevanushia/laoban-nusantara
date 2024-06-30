@@ -94,7 +94,7 @@ include_once __DIR__."/template/header.php";
         <div class="row">
             <div class="col-lg-4 offset-lg-4 text-center">
                 <div class="section-heading">
-                    <h6>Follow Us</h6>
+                    <h6>Follow Us on Instagram!</h6>
                     <h2><a href="https://www.instagram.com/laoban.nusantara/" target="_blank" style="color: black; text-decoration: underline !important;">@LAOBAN.NUSANTARA</a></h2> 
                 </div>
             </div>
