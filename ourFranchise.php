@@ -300,6 +300,54 @@ include_once __DIR__."/template/header.php"; ?>
                     </div>
                 </div>
 
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                            <strong>Laoban Kopitiam Kediri</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseFifteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.7012056795406!2d112.02738269999999!3d-7.821416899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e785700564efc11%3A0x61d576780053702a!2sLaoban%20kediri!5e0!3m2!1sid!2sid!4v1719731646736!5m2!1sid!2sid" 
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+                            <strong>Laoban Kopitiam Cimahi</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseSixteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.0788853022395!2d107.5514846!3d-6.881153099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e50056588c5b%3A0x61657fd8534a83e4!2sLaoban%20by%20Uncle%20Osh%20cibabat%20cimahi!5e0!3m2!1sid!2sid!4v1719731839402!5m2!1sid!2sid"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+                            <strong>Laoban Kopitiam Katamso</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseSeventeen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31687.069930110356!2d107.61383033955079!3d-6.904503699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e70075877ec7%3A0x2991f5f710e588bb!2sLAOBAN%20by%20UNCLE%20OSH%20KATAMSO!5e0!3m2!1sid!2sid!4v1719732432383!5m2!1sid!2sid" 
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <!-- ACCORDION BOOTSTRAP -->
         </div>
@@ -433,7 +481,7 @@ include_once __DIR__."/template/header.php"; ?>
             'assets/images/outlet/benhill_5.jpg',
         ],
 
-        //Laoban Kopitiam Bandung
+        //Laoban Kopitiam tebet
         collapseFourteen: [
             'assets/images/outlet/tebet_1.jpg',
             'assets/images/outlet/tebet_2.jpg',
@@ -443,6 +491,39 @@ include_once __DIR__."/template/header.php"; ?>
             'assets/images/outlet/tebet_6.jpg',
             'assets/images/outlet/tebet_7.jpg',
             'assets/images/outlet/tebet_8.jpg',
+        ],
+
+         //Laoban Kopitiam kediri
+         collapseFifteen: [
+            'assets/images/outlet/kediri_1.jpg',
+            'assets/images/outlet/kediri_2.jpg',
+            'assets/images/outlet/kediri_3.jpg',
+            'assets/images/outlet/kediri_4.jpg',
+            'assets/images/outlet/kediri_5.jpg',
+        ],
+
+        //Laoban Kopitiam cimahi
+        collapseSixteen: [
+            'assets/images/outlet/cimahi_1.jpg',
+            'assets/images/outlet/cimahi_2.jpg',
+            'assets/images/outlet/cimahi_3.jpg',
+            'assets/images/outlet/cimahi_4.jpg',
+            'assets/images/outlet/cimahi_5.jpg',
+            'assets/images/outlet/cimahi_6.jpg',
+        ],
+
+        //Laoban Kopitiam katamso
+        collapseSeventeen: [
+            'assets/images/outlet/katamso_1.jpg',
+            'assets/images/outlet/katamso_2.jpg',
+            'assets/images/outlet/katamso_3.jpg',
+            'assets/images/outlet/katamso_4.jpg',
+            'assets/images/outlet/katamso_5.jpg',
+            'assets/images/outlet/katamso_6.jpg',
+            'assets/images/outlet/katamso_7.jpg',
+            'assets/images/outlet/katamso_8.jpg',
+            'assets/images/outlet/katamso_9.jpg',
+            'assets/images/outlet/katamso_10.jpg',
         ]
         // Add other image sets for other accordion items
     };
