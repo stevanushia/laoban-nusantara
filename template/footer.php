@@ -7,7 +7,7 @@
                         <ul class="social-icons">
                             <li><a href="https://www.instagram.com/laoban.nusantara/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                             <li><a href="https://wa.me/+6282244503221" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
-                            <li><a href="https://www.facebook.com/profile.php?id=100087203203713"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=100087203203713" target="_blank"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="https://linktr.ee/MeLuxurious?utm_source=linktree_admin_share" target="_blank"><i class="fa fa-link"></i></a></li>
                             <li><a href="https://www.tiktok.com/@laoban.nusantara" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
                         </ul>
@@ -16,7 +16,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="logo">
-                        <a href="index.html"><img src="assets/images/logo.png" alt="" style="width: 250px ;"></a>
+                        <a href="index.php"><img src="assets/images/logo.png" alt="" style="width: 250px ;"></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xs-12">
