@@ -58,7 +58,7 @@ include_once __DIR__."/template/header.php"; ?>
     <div class="row">
         <div class="col-lg-4 offset-lg-4 text-center">
             <div class="section-heading">
-                <h6>Our Franchise</h6>
+                <h6>Our Partner</h6>
                 <h2>Kunjungi Lokasi Kami!</h2>
             </div>
         </div>

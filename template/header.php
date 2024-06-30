@@ -85,7 +85,7 @@
                                     class="<?php echo ($current_page == 'menu') ? 'active' : ''; ?>">Menu</a></li>
                             <li class="scroll-to-section"><a href="ourFranchise.php"
                                     class="<?php echo ($current_page == 'franchise') ? 'active' : ''; ?>">Our
-                                    Franchise</a></li>
+                                    Partner</a></li>
                             <!-- <li class="submenu">
                                 <a href="javascript:;">Features</a>
                                 <ul>
