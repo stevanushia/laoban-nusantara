@@ -82,7 +82,7 @@ insert  into `menu`(`id`,`name`,`description`,`photo`,`tipe_makanan`,`favorit`) 
 (33,'Kopi Jahe','Perpaduan kopi dan jahe yang hangat dan menggugah selera para pecinta kehangatan.','KopiJahe.jpg',4,NULL),
 (34,'Milo Thailand','Milo hangat creamy dengan taburan bubuk milo mirip milo dino di thailand.','MiloThailand.jpg',4,1),
 (35,'Kopi Rhum','Kopi Hitam blend dicampur sirup Rhum!','KopiRhumPotrait.jpg',4,NULL),
-(36,'Kopi Telor Vietnam','Minuman kopi tradisional dengan foam telur lembut yang creamy. Laoban\'s Signature!','KopiTelurVeitnam.jpg',4,NULL),
+(36,'Kopi Telor Vietnam',"Minuman kopi tradisional dengan foam telur lembut yang creamy. Laoban\'s Signature!",'KopiTelurVeitnam.jpg',4,NULL),
 (37,'Es Kopi Laoban','Kenikmatan ngopi yang segar, meningkatkan semangat dan kesegaran tubuh.','EsKopiLaoban.jpg',5,1),
 (38,'Es Kopi Susu Laoban','Kesegaran Kopi Susu ala laoban yang memikat.','EsKopiSusu.jpg',5,1),
 (39,'Es Teh Laoban','Kenikmatan teh khas Laoban yang dingin dan nyegerin.','EsTehLaoban.jpg',5,1),
@@ -92,7 +92,7 @@ insert  into `menu`(`id`,`name`,`description`,`photo`,`tipe_makanan`,`favorit`) 
 (43,'Es Burung Dara','Zeger tanpa susu dan tanpa kopi. Bersoda dan manis yg bikin fresh hari-harimu','EsBurungDara.jpg',5,1),
 (44,'Es Coklat Laoban','Es Coklat rahasia dari Uncle Osh! mirip lah sama yg di cafe2 mendunia.','EsCoklatLaoban.jpg',5,NULL),
 (45,'Es Sumo','Perpaduan pas antara susu dan sirup mocha yg bikin zeger\r\n','EsSumo.jpg',5,NULL),
-(46,'Air Mineral','Air mineral adalah air alami yang kaya mineral penting untuk kesehatan.',NULL,5,NULL),
+(46,'Air Mineral','Air mineral adalah air alami yang kaya mineral penting untuk kesehatan.','Mineral.jpeg',5,NULL),
 (47,'Es ABCD','Es nya Upin Ipin, singkatan dari Ais Batu Campur Deh. Isian kacang merah, nangka, es krim vanilla, dan jagung Maniez... ','EsABCD.jpg',6,1),
 (48,'Es Coklat Uncle','Perpaduan es krim coklat dan toping semangka, choco ball, dan kacang crumble.','EsCoklatFountain.jpg',6,NULL);
 
