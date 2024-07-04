@@ -35,7 +35,7 @@ include_once __DIR__."/template/header.php"; ?>
                 <div class="col-lg-6">
                     <div class="row justify-content-center">
                         <div class="col-md-10 col-sm-10">
-                            <img class="img-fluid mt-4" style="border-radius: 25px; margin-left: 25px;" src="assets/images/partnershipStep3.png" alt="">
+                            <img class="img-fluid mt-4" style="border-radius: 25px;" src="assets/images/partnershipStep3.png" alt="">
                         </div>
                     </div>
                 </div>

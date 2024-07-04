@@ -12,9 +12,9 @@ MySQL - 10.4.27-MariaDB : Database - laoban_nusantara
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-CREATE DATABASE /*!32312 IF NOT EXISTS*/`laoban_nusantara` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */;
+-- CREATE DATABASE /*!32312 IF NOT EXISTS*/`laoban_nusantara` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */;
 
-USE `laoban_nusantara`;
+-- USE `laoban_nusantara`;
 
 /*Table structure for table `cabang` */
 
@@ -82,7 +82,7 @@ insert  into `menu`(`id`,`name`,`description`,`photo`,`tipe_makanan`,`favorit`) 
 (33,'Kopi Jahe','Perpaduan kopi dan jahe yang hangat dan menggugah selera para pecinta kehangatan.','KopiJahe.jpg',4,NULL),
 (34,'Milo Thailand','Milo hangat creamy dengan taburan bubuk milo mirip milo dino di thailand.','MiloThailand.jpg',4,1),
 (35,'Kopi Rhum','Kopi Hitam blend dicampur sirup Rhum!','KopiRhumPotrait.jpg',4,NULL),
-(36,'Kopi Telor Vietnam','Minuman kopi tradisional dengan foam telur lembut yang creamy. Laoban\'s Signature!','KopiTelurVeitnam.jpg',4,NULL),
+(36,'Kopi Telor Vietnam',"Minuman kopi tradisional dengan foam telur lembut yang creamy. Laoban\'s Signature!",'KopiTelurVeitnam.jpg',4,NULL),
 (37,'Es Kopi Laoban','Kenikmatan ngopi yang segar, meningkatkan semangat dan kesegaran tubuh.','EsKopiLaoban.jpg',5,1),
 (38,'Es Kopi Susu Laoban','Kesegaran Kopi Susu ala laoban yang memikat.','EsKopiSusu.jpg',5,1),
 (39,'Es Teh Laoban','Kenikmatan teh khas Laoban yang dingin dan nyegerin.','EsTehLaoban.jpg',5,1),
