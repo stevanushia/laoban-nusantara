@@ -51,6 +51,12 @@ include_once __DIR__."/template/header.php"; ?>
         object-fit: contain;
         /* or cover depending on your preference */
     }
+
+    .accordion-button{
+        display: block;
+        text-align: center;
+    }
+    
 </style>
 
 
@@ -64,24 +70,49 @@ include_once __DIR__."/template/header.php"; ?>
         </div>
     </div>
 
-    <div class="row" style="margin-left: 25px;">
-        <div class="col-6 col-md-4">
+    <div class="row">
+        <div>
             <!-- ACCORDION BOOTSTRAP -->
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="text-align: center;">
                             <strong>Laoban Kopitiam Suhat, Malang (Pusat)</strong>
                         </button>
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d126449.96895010203!2d112.54751546940913!3d-7.940776492494127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x2dd6298ddfd73cf5%3A0xbeb5ae954f915c2c!2sJl.%20Soekarno%20Hatta%20Indah%20No.17%2C%20Mojolangu%2C%20Kec.%20Lowokwaru%2C%20Kota%20Malang%2C%20Jawa%20Timur%2065142!3m2!1d-7.9407812!2d112.6299076!5e0!3m2!1sen!2sid!4v1715249968798!5m2!1sen!2sid"
-                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
+                            <div style="text-align: center;">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d126449.96895010203!2d112.54751546940913!3d-7.940776492494127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x2dd6298ddfd73cf5%3A0xbeb5ae954f915c2c!2sJl.%20Soekarno%20Hatta%20Indah%20No.17%2C%20Mojolangu%2C%20Kec.%20Lowokwaru%2C%20Kota%20Malang%2C%20Jawa%20Timur%2065142!3m2!1d-7.9407812!2d112.6299076!5e0!3m2!1sen!2sid!4v1715249968798!5m2!1sen!2sid"
+                                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                            <br>
+                            <br>
+                            <div id="carouselExampleAutoplaying" class="carousel slide h-100" data-bs-ride="carousel"
+                                style="height: 75vh;">
+                                <div class="carousel-inner h-100">
+                                    <div class="carousel-item active h-100">
+                                        <img src="assets/images/outlet/suhat_1.jpg" class="rounded-4 mx-auto d-block w-50 h-100"
+                                            alt="...">
+                                    </div>
+                                    <div class="carousel-item h-100">
+                                        <img src="assets/images/outlet/suhat_2.jpg" class="rounded-4 mx-auto d-block w-50 h-100"
+                                            alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                                    data-bs-slide="prev">
+                                    <span class="rounded carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                                    data-bs-slide="next">
+                                    <span class="rounded carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -95,7 +126,32 @@ include_once __DIR__."/template/header.php"; ?>
                         <div class="accordion-body">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.5510083565127!2d112.6838782!3d-7.941870099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd62943bed1ea39%3A0x4481cf517a9ea1c9!2sLaoban%20Kopitiam%20Binus!5e0!3m2!1sid!2sid!4v1718477028539!5m2!1sid!2sid" 
                             width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+
+                        <div id="carouselExampleAutoplaying" class="carousel slide h-100" data-bs-ride="carousel"
+                                style="height: 100%;">
+                                <div class="carousel-inner h-100">
+                                    <div class="carousel-item active h-100">
+                                        <img src="assets/images/outlet/suhat_1.jpg" class="rounded-4 mx-auto d-block w-50 h-100"
+                                            alt="...">
+                                    </div>
+                                    <div class="carousel-item h-100">
+                                        <img src="assets/images/outlet/suhat_2.jpg" class="rounded-4 mx-auto d-block w-50 h-100"
+                                            alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                                    data-bs-slide="prev">
+                                    <span class="rounded carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                                    data-bs-slide="next">
+                                    <span class="rounded carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -351,33 +407,6 @@ include_once __DIR__."/template/header.php"; ?>
             </div>
             <!-- ACCORDION BOOTSTRAP -->
         </div>
-
-        <div class="col-md-8 rounded-4">
-            <div id="carouselExampleAutoplaying" class="carousel slide h-100" data-bs-ride="carousel"
-                style="height: 100%;">
-                <div class="carousel-inner h-100">
-                    <div class="carousel-item active h-100">
-                        <img src="assets/images/outlet/suhat_1.jpg" class="rounded-4 mx-auto d-block w-50 h-100"
-                            alt="...">
-                    </div>
-                    <div class="carousel-item h-100">
-                        <img src="assets/images/outlet/suhat_2.jpg" class="rounded-4 mx-auto d-block w-50 h-100"
-                            alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="prev">
-                    <span class="rounded carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="next">
-                    <span class="rounded carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-
     </div>
 
     <!-- </div> -->
