@@ -27,25 +27,12 @@ include_once __DIR__."/template/header.php";
                             
                         <p>Perjalanan kisah jatuh bangun warga tiktok yg fyp menjadi kiblat LAO BAN untuk membuat cuplikan cerita singkat proses pendakian kedai ini. Semakin fyp semakin banyak orang kepo dan fomo terhadap LAO BAN dan yg akhirnya bisa membuat LAO BAN buka cabang di kota kota besar lainnya.</p>
                             
-                        <!-- <p>SUDAH SIAP MENCICIP MENU BARU by Uncle Osh, LAOBAN??</p> -->
-                        <!-- <div class="row">
-                            <div class="col-4">
-                                <img src="assets/images/chefs-01.jpg" alt="">
-                            </div>
-                            <div class="col-4">
-                                <img src="assets/images/about-thumb-02.jpg" alt="">
-                            </div>
-                            <div class="col-4">
-                                <img src="assets/images/about-thumb-03.jpg" alt="">
-                            </div>
-                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-xs-12">
                     <div class="right-content">
-                        <div class="thumb">
-                            <!-- <a rel="nofollow" href="http://youtube.com"><i class="fa fa-play"></i></a> -->
-                            <img src="assets/images/portrait1.jpg" alt="">
+                    <div class="thumb">
+                            <img src="assets/images/portrait1.jpg" alt="" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -68,7 +55,7 @@ include_once __DIR__."/template/header.php";
                                     <li><a href="https://www.linkedin.com/in/alvin-osh-0385aa301?trk=people-search-result" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                                     <li><a href="https://www.tiktok.com/@tukangtoast" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
                                 </ul>
-                                <img src="assets/images/FotoCEO.jpg" alt="Founder" style="width: 325px;" >
+                                <img src="assets/images/FotoCEO.jpg" alt="Founder" style="width: 325px;" loading="lazy">
                             </div>
                             <div class="down-content">
                                 <h4>Alvin Osh</h4>
