@@ -115,7 +115,7 @@ include_once __DIR__."/template/header.php";
                         <ul class="social-icons">
                             <li><a href="<?php echo $social_links[$i]['instagram']; ?>" target="_blank"><i class="fa fa-instagram"></i></a></li>
                         </ul>
-                        <img src="./assets/images/Poster/fotoposter_<?php echo $i; ?>.jpg" alt="Poster <?php echo $i; ?>">
+                        <img src="./assets/images/Poster/fotoposter_<?php echo $i; ?>.jpg" alt="Poster <?php echo $i; ?>" loading="lazy">
                     </div>
                 </div>
             </div>
