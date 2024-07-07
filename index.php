@@ -29,7 +29,7 @@ include_once __DIR__."/template/header.php";
                         <!-- Item -->
                         <div class="item">
                             <div class="img-fill">
-                                <img src="assets/images/slide-0<?= $i ?>.jpg" alt="" loading="lazy">
+                                <img src="assets/images/slide-0<?= $i ?>.jpg" alt="">
                             </div>
                         </div>
                         <!-- // Item -->
