@@ -17,14 +17,14 @@ include_once __DIR__."/template/header.php"; ?>
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="phone">
-                                    <i class="fa fa-phone"></i>
+                                    <a href="https://wa.me/+6282244503221" target="_blank"><i class="fa fa-phone"></i></a>
                                     <h4>Phone Numbers</h4>
                                     <span><a href="https://wa.me/+6282244503221">0822-4450-3221</a><br><a href=""></a></span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="message">
-                                    <i class="fa fa-envelope"></i>
+                                    <a href="mailto:Laobankopitiam@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
                                     <h4>Emails</h4>
                                     <span><a href="mailto:Laobankopitiam@gmail.com">Laobankopitiam@gmail.com</a><br><a href="#"></a></span>
                                 </div>
