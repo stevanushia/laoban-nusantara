@@ -85,7 +85,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                     for ($i = 0; $i < $left_items; $i++) {
                                         echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/main-dish/{$arrMainDish[$i]['photo']}' alt=''>";
+                                                    <img data-enlargable src='assets/images/main-dish/{$arrMainDish[$i]['photo']}' alt='' loading='lazy'>";
                                                     if ($arrMainDish[$i]['favorit']) {
                                                         echo "<h4>{$arrMainDish[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
@@ -106,7 +106,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                     for ($i = $left_items; $i < $total_rows; $i++) {
                                         echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/main-dish/{$arrMainDish[$i]['photo']}' alt=''>";
+                                                    <img data-enlargable src='assets/images/main-dish/{$arrMainDish[$i]['photo']}' alt='' loading='lazy'>";
                                                     if ($arrMainDish[$i]['favorit']) {
                                                         echo "<h4>{$arrMainDish[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
@@ -139,7 +139,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                     for ($i = 0; $i < $left_items; $i++) {
                                         echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/snack/{$arrSnack[$i]['photo']}' alt=''>";
+                                                    <img data-enlargable src='assets/images/snack/{$arrSnack[$i]['photo']}' alt='' loading='lazy'>";
                                                     if ($arrSnack[$i]['favorit']) {
                                                         echo "<h4>{$arrSnack[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
@@ -160,7 +160,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                     for ($i = $left_items; $i < $total_rows; $i++) {
                                         echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/snack/{$arrSnack[$i]['photo']}' alt=''>";
+                                                    <img data-enlargable src='assets/images/snack/{$arrSnack[$i]['photo']}' alt='' loading='lazy'>";
                                                     if ($arrSnack[$i]['favorit']) {
                                                         echo "<h4>{$arrSnack[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
@@ -193,7 +193,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                     for ($i = 0; $i < $left_items; $i++) {
                                         echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/dimsum/{$arrDimsum[$i]['photo']}' alt=''>";
+                                                    <img data-enlargable src='assets/images/dimsum/{$arrDimsum[$i]['photo']}' alt='' loading='lazy'>";
                                                     if ($arrDimsum[$i]['favorit']) {
                                                         echo "<h4>{$arrDimsum[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
@@ -214,7 +214,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                     for ($i = $left_items; $i < $total_rows; $i++) {
                                         echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/dimsum/{$arrDimsum[$i]['photo']}' alt=''>";
+                                                    <img data-enlargable src='assets/images/dimsum/{$arrDimsum[$i]['photo']}' alt='' loading='lazy'>";
                                                     if ($arrDimsum[$i]['favorit']) {
                                                         echo "<h4>{$arrDimsum[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
@@ -247,7 +247,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                     for ($i = 0; $i < $left_items; $i++) {
                                         echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/hot-drink/{$arrHotDrink[$i]['photo']}' alt=''>";
+                                                    <img data-enlargable src='assets/images/hot-drink/{$arrHotDrink[$i]['photo']}' alt='' loading='lazy'>";
                                                     if ($arrHotDrink[$i]['favorit']) {
                                                         echo "<h4>{$arrHotDrink[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
@@ -268,7 +268,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                     for ($i = $left_items; $i < $total_rows; $i++) {
                                         echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/hot-drink/{$arrHotDrink[$i]['photo']}' alt=''>";
+                                                    <img data-enlargable src='assets/images/hot-drink/{$arrHotDrink[$i]['photo']}' alt='' loading='lazy'>";
                                                     if ($arrHotDrink[$i]['favorit']) {
                                                         echo "<h4>{$arrHotDrink[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
@@ -302,7 +302,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                     for ($i = 0; $i < $left_items; $i++) {
                                         echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/ice-drink/{$arrColdDrink[$i]['photo']}' alt=''>";
+                                                    <img data-enlargable src='assets/images/ice-drink/{$arrColdDrink[$i]['photo']}' alt='' loading='lazy'>";
                                                     if ($arrColdDrink[$i]['favorit']) {
                                                         echo "<h4>{$arrColdDrink[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
@@ -323,7 +323,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                     for ($i = $left_items; $i < $total_rows; $i++) {
                                         echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/ice-drink/{$arrColdDrink[$i]['photo']}' alt=''>";
+                                                    <img data-enlargable src='assets/images/ice-drink/{$arrColdDrink[$i]['photo']}' alt='' loading='lazy'>";
                                                     if ($arrColdDrink[$i]['favorit']) {
                                                         echo "<h4>{$arrColdDrink[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
@@ -357,7 +357,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                     for ($i = 0; $i < $left_items; $i++) {
                                         echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/si-bikin-seger/{$arrSiBikinSeger[$i]['photo']}' alt=''>";
+                                                    <img data-enlargable src='assets/images/si-bikin-seger/{$arrSiBikinSeger[$i]['photo']}' alt='' loading='lazy'>";
                                                     if ($arrSiBikinSeger[$i]['favorit']) {
                                                         echo "<h4>{$arrSiBikinSeger[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
@@ -378,7 +378,7 @@ $arrSiBikinSeger = Menu::getSiBikinSeger();
                                     for ($i = $left_items; $i < $total_rows; $i++) {
                                         echo "<div class='col-lg-16' style='height: 200px'>
                                                 <div class='tab-item'>
-                                                    <img data-enlargable src='assets/images/si-bikin-seger/{$arrSiBikinSeger[$i]['photo']}' alt=''>";
+                                                    <img data-enlargable src='assets/images/si-bikin-seger/{$arrSiBikinSeger[$i]['photo']}' alt='' loading='lazy'>";
                                                     if ($arrSiBikinSeger[$i]['favorit']) {
                                                         echo "<h4>{$arrSiBikinSeger[$i]['name']} <i class='fa fa-star'></i></h4>";
                                                     }
