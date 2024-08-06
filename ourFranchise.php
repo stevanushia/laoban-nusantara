@@ -333,6 +333,16 @@ include_once __DIR__."/template/header.php"; ?>
                     'assets/images/outlet/katamso_10.jpg'
                 ]
             },
+            {
+                id: 'location18',
+                name: 'Laoban Kopitiam Pekanbaru',
+                mapSrc: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6670175054346!2d101.41645007387314!3d0.4989832637221364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5a90036b0c239%3A0x13ab0b44815b88b6!2sLaoban%20Mal%20SKA!5e0!3m2!1sid!2sid!4v1722921826439!5m2!1sid!2sid', // replace with actual map URL
+                images: [
+                    'assets/images/outlet/pekanbaru1.jpg', // replace with actual image paths
+                    'assets/images/outlet/pekanbaru2.jpg',
+                    'assets/images/outlet/pekanbaru3.jpg'
+                ]
+            },
             // Add more locations as needed
         ];
 
