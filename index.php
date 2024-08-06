@@ -67,38 +67,38 @@ include_once __DIR__."/template/header.php";
         // Array of social media links for each poster
         $social_links = [
             1 => [
-                'instagram' => 'https://www.instagram.com/p/C8EyHMFpHDT/?igsh=b2QyZDNsd3U4bnhs',
+                'instagram' => 'https://www.instagram.com/p/C6i9jnKJDVy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
             ],
             2 => [
-                'instagram' => 'https://www.instagram.com/p/C0lNzlop6O-/?igsh=cmc4ZnB5OXZrNDlk',
+                'instagram' => 'https://www.instagram.com/p/C-RlQuJJ-6k/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
 
             ],
             3 => [
-                'instagram' => 'https://www.instagram.com/p/C2FE8yHJrkx/?igsh=aDBkdmY3ZjYweWcx',
+                'instagram' => 'https://www.instagram.com/p/C-Oi8V5vsMD/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
 
             ],
             4 => [
-                'instagram' => 'https://www.instagram.com/p/C3keZJ9pYwq/?igsh=c2w4cHEwY2Exc2Vp',
+                'instagram' => 'https://www.instagram.com/p/C-FqATOPx8B/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
 
             ],
             5 => [
-                'instagram' => 'https://www.instagram.com/p/CnvayzZpwgv/?igsh=aDN3bWlmOXJwdXk=',
+                'instagram' => 'https://www.instagram.com/p/C-E3TezJbhQ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
 
             ],
             6 => [
-                'instagram' => 'https://www.instagram.com/p/ColaFufPJof/?igsh=MXZpeGp3amE3bjB6Yw==',
+                'instagram' => 'https://www.instagram.com/p/C-EoSDdvpL9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
 
             ],
             7 => [
-                'instagram' => 'https://www.instagram.com/p/Cq2nprIJSOO/?igsh=NGhjOW1vYzFtMzFj',
+                'instagram' => 'https://www.instagram.com/p/C-DE06MPydv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
 
             ],
             8 => [
-                'instagram' => 'https://www.instagram.com/p/C8A_x4psdiW/?igsh=MTV3dWxuZ2xxcTB4OA==',
+                'instagram' => 'https://www.instagram.com/p/C-AGJ51JGsP/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
 
             ],
             9 => [
-                'instagram' => 'https://www.instagram.com/p/CpMmWA7JV2M/?igsh=bnMyb2N6bmE1N25l',
+                'instagram' => 'https://www.instagram.com/p/C9_w-PtJKng/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
 
             ],
         ];
